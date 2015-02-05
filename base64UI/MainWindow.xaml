@@ -1,0 +1,15 @@
+﻿<Window x:Class="base64UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="base64 Tool" Height="164" Width="279" Drop="Window_Drop" AllowDrop="True" StateChanged="Window_StateChanged" WindowStyle="SingleBorderWindow">
+
+    <DockPanel>
+        <ProgressBar DockPanel.Dock="Bottom" Name="progressBar" Height="20" VerticalAlignment="Bottom" />
+        <Grid>
+            <Label HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch">
+                Drag your files here!
+            </Label>
+            <CheckBox Content="2 Clipboard" Height="16" HorizontalAlignment="Right" Name="checkBox2Clip" VerticalAlignment="Bottom" Width="88" IsChecked="True" />
+        </Grid>
+    </DockPanel>
+</Window>
